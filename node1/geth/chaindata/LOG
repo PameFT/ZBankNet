@@ -1,0 +1,38 @@
+=============== Aug 6, 2021 (AEST) ===============
+21:22:05.950152 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:22:06.013209 db@open opening
+21:22:06.014684 version@stat F·[] S·0B[] Sc·[]
+21:22:06.034920 db@janitor F·2 G·0
+21:22:06.035165 db@open done T·21.764292ms
+21:22:06.047559 db@close closing
+21:22:06.048086 db@close done T·512.916µs
+=============== Aug 6, 2021 (AEST) ===============
+21:24:35.306767 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:24:35.308052 version@stat F·[] S·0B[] Sc·[]
+21:24:35.308131 db@open opening
+21:24:35.308629 journal@recovery F·1
+21:24:35.314361 journal@recovery recovering @1
+21:24:35.339473 memdb@flush created L0@2 N·625 S·50KiB "\x02d\xfc..\x19Ba,v433":"\xfe\x88\xcf..H\xef\xcc,v365"
+21:24:35.347379 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+21:24:35.428086 db@janitor F·3 G·0
+21:24:35.428147 db@open done T·120.002583ms
+=============== Aug 6, 2021 (AEST) ===============
+23:20:51.580398 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:20:51.581855 version@stat F·[1] S·50KiB[50KiB] Sc·[0.25]
+23:20:51.581930 db@open opening
+23:20:51.582304 journal@recovery F·1
+23:20:51.588011 journal@recovery recovering @3
+23:20:51.612040 memdb@flush created L0@5 N·266 S·11KiB "Dat..ion,v627":"unc..own,v632"
+23:20:51.618680 version@stat F·[2] S·62KiB[62KiB] Sc·[0.50]
+23:20:51.701194 db@janitor F·4 G·0
+23:20:51.701269 db@open done T·119.315917ms
+=============== Aug 6, 2021 (AEST) ===============
+23:24:49.087172 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:24:49.088264 version@stat F·[2] S·62KiB[62KiB] Sc·[0.50]
+23:24:49.088350 db@open opening
+23:24:49.088792 journal@recovery F·1
+23:24:49.094783 journal@recovery recovering @6
+23:24:49.118840 memdb@flush created L0@8 N·1 S·204B "unc..own,v894":"unc..own,v894"
+23:24:49.124148 version@stat F·[3] S·62KiB[62KiB] Sc·[0.75]
+23:24:49.204635 db@janitor F·5 G·0
+23:24:49.204701 db@open done T·116.330833ms
